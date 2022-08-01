@@ -1,0 +1,21 @@
+.logo {
+    display: inline-flex;
+    color:var(--logo-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo-beginning {
+    color: var(--animation-color);
+}
+.logo-reverse{
+    color: var(--header-bg-color);
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        font-size: 26px;
+    }
+}

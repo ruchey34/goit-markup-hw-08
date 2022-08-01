@@ -1,0 +1,98 @@
+.team{
+    background-color: var(--team-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+.team__list{
+    display: flex;
+    --items: 1;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) {
+        --items: 2;
+        max-width: 738px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        --items: 4;
+        max-width: 1170px;
+    }
+}
+.team__container{
+    background-color: var(--header-bg-color);
+    position: relative;
+    width: 450px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+}
+.team__header{
+    font-family: 'Roboto';
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
+}
+.team__img{
+    height: 460px;
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        height: 374px;
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        height: 260px;
+        width: 270px;
+    }
+}
+.team__box{
+    display: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team__name{
+    font-family: 'Roboto';
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+.team__paragraph{
+    font-family: 'Roboto';
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
